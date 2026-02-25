@@ -82,20 +82,4 @@ This project demonstrates **real-time data acquisition, processing, user interac
 
 ---
 
-# 📸 Project Results & Screenshots
-
-## 🔹 Hardware Setup
-![Hardware Setup](images/hardware_setup.jpg)
-
-## 🔹 LCD Output Display
-![LCD Output](images/lcd_output.jpg)
-
-## 🔹 Sensor Data Monitoring
-![Sensor Data](images/sensor_data.jpg)
-
-## 🔹 Alert System Activation
-![Alert System](images/alert_system.jpg)
-
-## 🔹 UART Output
-![UART Output](images/uart_output.jpg)
 
