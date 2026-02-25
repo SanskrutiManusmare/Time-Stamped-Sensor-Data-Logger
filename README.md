@@ -82,4 +82,107 @@ This project demonstrates **real-time data acquisition, processing, user interac
 
 ---
 
+## 🎓 Academic Relevance  
+
+This project demonstrates:
+
+- ARM7 Embedded Programming  
+- RTC, ADC, UART, LCD & Keypad Interfacing  
+- Real-Time Data Logging  
+- Firmware Modularity  
+
+---
+
+## 👩‍💻 Developed By  
+
+**Sanskruti Manusmare**  
+Embedded Systems | IoT | ARM Microcontrollers
+
+## 📸 Hardware & Simulation Outputs  
+
+The following results were captured during testing:
+
+### 🔹 LCD Startup & Initial Logging  
+<img width="1178" height="818" alt="Startup Screen" src="rtc_display.png" />
+
+---
+
+### 🔹 Menu Interface Screen  
+<img width="1174" height="754" alt="Menu Interface" src="rtc_option.png" />
+
+---
+
+### 🔹 RTC Update Option Screen  
+<img width="1166" height="776" alt="RTC Update Option Screen" src="editoption.png" />
+
+
+### 🔹 RTC Updated Dislay Screen  
+<img width="1166" height="776" alt="RTC Updated Display Screen" src="rtc_updated.png" />
+
+
+### 🔹 Exiting Screen  
+<img width="1166" height="776" alt="Exiting Screen" src="exiting.png" />
+
+
+
+### 🔹 Alert Message on UART and LED ON 
+<img width="1170" height="780" alt="Temperature Logging" src="setpointOk.png" />
+
+
+---
+
+
+
+### 📁 Project Structure  
+
+```bash
+Mini_Project/
+│
+├── mini_proj/
+│   └── main.c
+│
+├── adc/
+│   ├── adc.c
+│   └── adc_defines.h
+│
+├── lm35/
+│   ├── lm35.c
+│   └── lm35.h
+│
+├── rtc/
+│   ├── rtc.c
+│   ├── rtc.h
+│   └── rtc_defines.h
+│
+├── uart/
+│   ├── uart.c
+│   └── uart.h
+│
+├── lcd/
+│   ├── lcd.c
+│   └── lcd.h
+│
+├── keypad/
+│   ├── keypad.c
+│   └── keypad.h
+│
+├── display/
+│   ├── display.c
+│   └── display.h
+│
+├── edit/
+│   ├── edit_mode.c
+│   └── edit.h
+│
+├── alert_sys/
+│   ├── alert.c
+│   └── alert.h
+│
+├── defines/
+│   └── defines.h
+│
+├── types/
+│   └── types.h
+│
+└── README.md
 
