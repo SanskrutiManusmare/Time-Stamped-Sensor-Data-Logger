@@ -1,7 +1,7 @@
 # 🚀 Project – Embedded System (LPC21xx)
 
 ## 📌 Project Title  
-**Time-Stamped Sensor Monitoring & Alert System**
+**Time-Stamped Sensor Data  Logger**
 
 ---
 
